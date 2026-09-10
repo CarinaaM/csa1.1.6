@@ -4,7 +4,9 @@ public class MathRiddle2
 {
   public static void main(String[] args)
   {
-   //Riddle:"Choose any integer, double it, add 6, divide it in half, and subtract the number you started with.
+   /*
+   Riddle:"Choose any integer, double it, add 6, divide it in half, and subtract the number you started with.
+   */
 
    System.out.println("Welcome to the Baez Boba Shop. How many bobas would you like to buy?");
    
