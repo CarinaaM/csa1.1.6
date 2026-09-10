@@ -30,8 +30,16 @@ public class MathRiddle
    double variableFive = 0.5;
    //Conversion between int and double datatypes:
    double riddleResult5 = (((variableFive*2)+6)/2)-variableFive;
-   int riddleResultFive = riddleResult5; //ERROR HERE!!!! FIX THURSDAY :) 
+   int riddleResultFive = (int)riddleResult5;
    System.out.println("The result is "+ riddleResultFive);
+
+   //Variable #6: negative double
+   double variableSix = -6.7;
+   //Conversion between int and double datatypes:
+   double riddleResult6 = (((variableSix*2)+6)/2)-variableSix;
+   int riddleResultSix = (int)riddleResult6;
+   System.out.println("The result is "+ riddleResultSix);
+
 
 
   }
